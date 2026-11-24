@@ -55,7 +55,12 @@
     'Training floor': 'assets/gallery/training-floor.webp',
     'Small group session': 'assets/gallery/small-group-session.webp',
     'Community vibe': 'assets/gallery/community-vibe.webp',
-    'Branding / merch': 'assets/gallery/branding-merch.webp'
+    'Branding / merch': 'assets/gallery/branding-merch.webp',
+    'New gym training floor': 'assets/gallery/78368.jpg',
+    'Sled track and free weights': 'assets/gallery/78369.jpg',
+    'Cardio and conditioning': 'assets/gallery/78370.jpg',
+    'Boxing and dumbbell area': 'assets/gallery/78371.jpg',
+    'Strength training racks': 'assets/gallery/78372.jpg'
   };
 
   function resolveGallerySrc(label){
