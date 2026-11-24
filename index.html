@@ -350,15 +350,19 @@
 <div class="container">
 <div class="section-head">
 <h2>Gallery</h2>
-<p class="muted">A quick look at the gym atmosphere and sessions. Tap any tile to view.</p>
+<p class="muted">A look inside our new gym. Tap any photo to view it in full.</p>
+<style>
+#gallery .gph{min-height:220px;}
+#gallery .lb-media img{width:100%;height:auto;max-height:calc(100vh - 100px);max-height:calc(100dvh - 100px);object-fit:contain;}
+#gallery .lightbox .frame{max-height:94vh;overflow:auto;}
+</style>
 </div>
 <div class="gallery-grid">
-<button class="gph fade-in" data-placeholder="Training floor" type="button">Training floor</button>
-<button class="gph fade-in" data-placeholder="Small group session" type="button">Small group session</button>
-<button class="gph fade-in" data-placeholder="Boxing pads" type="button">Boxing pads</button>
-<button class="gph fade-in" data-placeholder="Coaching moments" type="button">Coaching moments</button>
-<button class="gph fade-in" data-placeholder="Community vibe" type="button">Community vibe</button>
-<button class="gph fade-in" data-placeholder="Branding / merch" type="button">Branding / merch</button>
+<button class="gph fade-in" data-placeholder="New gym training floor" type="button"><span>New gym training floor</span></button>
+<button class="gph fade-in" data-placeholder="Sled track and free weights" type="button"><span>Sled track and free weights</span></button>
+<button class="gph fade-in" data-placeholder="Cardio and conditioning" type="button"><span>Cardio and conditioning</span></button>
+<button class="gph fade-in" data-placeholder="Boxing and dumbbell area" type="button"><span>Boxing and dumbbell area</span></button>
+<button class="gph fade-in" data-placeholder="Strength training racks" type="button"><span>Strength training racks</span></button>
 </div>
 <div aria-hidden="true" class="lightbox" id="lightbox">
  <div class="frame" role="dialog" aria-modal="true" aria-label="Gallery image">
